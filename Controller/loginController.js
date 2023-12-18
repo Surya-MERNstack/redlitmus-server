@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 dotenv.config();
-mongoose.connect(process.env.MongoDb_Url, {
+mongoose.connect("mongodb+srv://charusurya17:CharlieDerex17@surya-ecommerce.fkvygn6.mongodb.net/redlitmus_ecom?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
